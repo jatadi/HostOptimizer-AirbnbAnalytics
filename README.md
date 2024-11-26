@@ -8,9 +8,10 @@ HostOptimizer is a data-driven project designed to help Airbnb hosts optimize th
 - Neighborhood-specific recommendations
 
 ## Datasets:
-- [Airbnb Calendar Data](https://example-link.com)
-- [Airbnb Listings Summary](https://example-link.com)
-- [Airbnb Reviews Data](https://example-link.com)
+- [Airbnb Calendar Data]((https://data.insideairbnb.com/united-states/ny/new-york-city/2024-09-04/data/calendar.csv.gz))
+- [Airbnb Listings Summary]((https://data.insideairbnb.com/united-states/ny/new-york-city/2024-09-04/data/listings.csv.gz))
+- [Airbnb Reviews Data](https://data.insideairbnb.com/united-states/ny/new-york-city/2024-09-04/visualisations/reviews.csv)
+- [Inside AirBnB - New York City](https://insideairbnb.com/new-york-city/) 
 
 ## Tools:
 - **QlikSense**: For interactive data visualization and dashboarding.
