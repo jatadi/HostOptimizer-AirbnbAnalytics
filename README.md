@@ -1,4 +1,4 @@
-# HostOptimizer: Airbnb Analytics Tool
+# StaySavvy: Airbnb Analytics Tool
 
 HostOptimizer is a data-driven project designed to help Airbnb hosts optimize their listings for increased revenue, better guest satisfaction, and improved visibility.
 
