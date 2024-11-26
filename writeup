@@ -1,0 +1,77 @@
+# StaySavvy: Optimizing Airbnb Listings with Data-Driven Insights
+
+**Team Members:** Anthony, Dago, Tadija  
+
+---
+
+## 1. Who/What Our Business Is  
+We are a third-party consulting and management company specializing in helping Airbnb hosts optimize their listings through data-driven insights. Our focus is on maximizing host revenue, improving guest satisfaction, and enhancing operational efficiency for short-term rental properties.
+
+---
+
+## 2. Three Questions/Problems to Solve with Data  
+
+### 1. Revenue Optimization for Hosts  
+- **Problem:** How can hosts dynamically price their listings to maximize revenue while maintaining competitiveness?  
+- **Value:** Hosts can set optimal prices by analyzing seasonal trends, demand surges, and competitor pricing.  
+- **Dataset Fields Used:**  
+  - `calendar.csv.gz`: Dates, availability, and pricing information.  
+
+### 2. Enhancing Listing Visibility  
+- **Problem:** What factors influence a listing’s visibility and ranking on Airbnb’s search results?  
+- **Value:** Enables hosts to improve their listings by focusing on high-impact factors such as high-quality photos, amenities, and review ratings.  
+- **Dataset Fields Used:**  
+  - `listings.csv`: Number of reviews, ratings, amenities, and photos.  
+  - `reviews.csv`: Guest feedback and review scores.  
+
+### 3. Targeted Guest Preferences by Neighborhood  
+- **Problem:** What amenities and features are most popular in specific neighborhoods?  
+- **Value:** Helps hosts tailor their offerings based on neighborhood-specific trends, ensuring their properties stand out to potential guests.  
+- **Dataset Fields Used:**  
+  - `neighbourhoods.geojson`: Geographical segmentation.  
+  - `listings.csv`: Amenities and location data.  
+
+---
+
+## 3. Specific Datasets and Descriptions  
+
+**Datasets Used:**  
+1. **`calendar.csv.gz` (Detailed Calendar Data):**  
+   - Contains daily pricing and availability for each listing, allowing for revenue and pricing trend analysis.  
+   - [Download Dataset](https://data.insideairbnb.com/united-states/ny/new-york-city/2024-09-04/data/calendar.csv.gz)  
+
+2. **`listings.csv` (Summary Information):**  
+   - Provides comprehensive details about each listing, such as amenities, host response times, and location.  
+   - [Download Dataset](https://data.insideairbnb.com/united-states/ny/new-york-city/2024-09-04/data/listings.csv.gz)  
+
+3. **`reviews.csv` (Summary Review Data):**  
+   - Includes guest feedback, helping analyze satisfaction trends and areas for improvement.  
+   - [Download Dataset](https://data.insideairbnb.com/united-states/ny/new-york-city/2024-09-04/visualisations/reviews.csv)  
+
+4. **`neighbourhoods.geojson` (Geospatial Data):**  
+   - Maps out neighborhoods, enabling location-specific insights.  
+   - [Download Dataset](https://data.insideairbnb.com/united-states/ny/new-york-city/2024-09-04/visualisations/neighbourhoods.geojson)  
+
+**How These Work Together:**  
+- Combine `calendar.csv.gz` with `listings.csv` to analyze pricing strategies and correlate them with listing features.  
+- Use `reviews.csv` to identify which factors contribute to higher guest satisfaction.  
+- Leverage `neighbourhoods.geojson` to map trends geographically.
+
+---
+
+## 4. Tool to Visualize and Use the Data  
+
+- **QlikSense:**  
+  - Create an interactive dashboard where users can:  
+    - Explore dynamic pricing trends over time.  
+    - Filter by neighborhood and compare listing performance.  
+    - View correlations between amenities and guest reviews.  
+    - Visualize hotspots for high-performing listings geographically.  
+
+---
+
+## 5. Summary of End Goal  
+
+Our end goal is to deliver a comprehensive, data-driven tool that empowers Airbnb hosts to make informed decisions about pricing, amenities, and marketing strategies. This tool will provide actionable insights to maximize revenue, improve guest satisfaction, and tailor offerings to market demand, all presented in an interactive and visually engaging format.
+
+---
